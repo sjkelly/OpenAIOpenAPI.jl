@@ -1,0 +1,1 @@
+ java -jar modules/openapi-generator-cli/target/openapi-generator-cli.jar generate    -i ../openai-openapi/openapi.yaml --skip-validate-spec  -g julia-client    -o ~/.julia/dev/OpenAIOpenAPI
